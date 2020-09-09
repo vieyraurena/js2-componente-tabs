@@ -15,7 +15,7 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex;
+  display: flex; /*cambia el tipo de despliegue*/
   margin-bottom: -1px;
 }
 

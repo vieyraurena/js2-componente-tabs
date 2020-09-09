@@ -1,6 +1,6 @@
 const tabs = document.querySelectorAll('.tabs-tablist-item');
 const content = document.querySelectorAll('.tabs-content-item');
-const tabsContent = document.querySelectorAll('.tabs-content');
+
 
 
 function buttonClick(event){

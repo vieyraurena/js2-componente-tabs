@@ -15,7 +15,7 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex; /*cambia el tipo de despliegue*/
+  display: flex;
   margin-bottom: -1px;
 }
 
@@ -33,4 +33,16 @@ body {
 .tabs-content {
   padding: 20px;
   border: 1px solid #999;
+}
+
+/* Estado (clases asignadas por Javascript) */
+
+.js-active {
+  background-color: #fff;
+  border-bottom: 1px solid #fff;
+  color: #000;
+}
+
+.js-content-hidden {
+  display: none;
 }
